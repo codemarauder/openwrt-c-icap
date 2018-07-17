@@ -28,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/libicapapi/Default
   URL:=http://c-icap.sourceforge.net/
-  DEPENDS:=+libc +libpcre +libpthread +librt +zlib +libbz2 +libdb47 +memcached
+  DEPENDS:=+libc +libpcre +libpthread +librt +zlib +libbz2 +libdb47 +libopenssl +memcached
   MAINTAINER:=Jorge Vargas <jorge.vargas@saint-tech.com>
 endef
 
